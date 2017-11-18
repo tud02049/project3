@@ -6,7 +6,7 @@ we first create a worksopace and package by using the link below
 
 https://www.intorobotics.com/ros-kinetic-publisher-and-subscriber-in-python/
 
-we go to the workspace directory and type the following code
+# we go to the workspace directory and type the following code
 
 $rosdep update
 
@@ -18,7 +18,7 @@ $source ./devel/setup.bash
 
 $pip install pycreate2
 
-initiate the roscore
+# initiate the roscore
 
 $cd /your_work_space
 
@@ -30,7 +30,7 @@ $export ROS_IP=[pi_ip_address]
 
 $roscore
 
-run publisher
+# run publisher
 
 $cd /your_work_space/src/your_pakage_name/src/
 
@@ -39,3 +39,5 @@ $chmod u+x 'file_names.py'
 $sudo usermod -a -G dialout $USER  #give permission to the USB port to serial
 
 $rosrun 'your_pakage_name' 'file_name.py'
+
+# wheels
