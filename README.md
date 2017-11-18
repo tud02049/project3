@@ -1,3 +1,4 @@
+
 # project3
 
 in project we communcate with roomba using Ros in raspberrypi; after installing ros kinetic follow the instructions below
@@ -41,3 +42,13 @@ $sudo usermod -a -G dialout $USER  #give permission to the USB port to serial
 $rosrun 'your_pakage_name' 'file_name.py'
 
 # wheels
+
+in this piece of code
+
+when an object call publisher enter 
+
+call back will activate 
+
+after call back is activate 
+
+the wheel will run
