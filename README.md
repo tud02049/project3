@@ -1,4 +1,5 @@
 
+
 # project3
 
 in project we communcate with roomba using Ros in raspberrypi; after installing ros kinetic follow the instructions below
@@ -32,15 +33,23 @@ $export ROS_IP=[pi_ip_address]
 $roscore
 
 # run publisher
+
 # open another terminal
+
 cd ~/robot
+
 source devel/setup.bash
+
 rosrun fanny_package irsensors.py
 
 # run suscriber 
+
 # open a third terminal
+
 cd ~/robot
+
 source devel/setup.bash
+
 rosrun fanny_suscriber wheels.py
 
 # wheels
