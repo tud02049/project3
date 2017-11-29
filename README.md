@@ -32,14 +32,16 @@ $export ROS_IP=[pi_ip_address]
 $roscore
 
 # run publisher
+# open another terminal
+cd ~/robot
+source devel/setup.bash
+rosrun fanny_package irsensors.py
 
-$cd /your_work_space/src/your_pakage_name/src/
-
-$chmod u+x 'file_names.py'
-
-$sudo usermod -a -G dialout $USER  #give permission to the USB port to serial
-
-$rosrun 'your_pakage_name' 'file_name.py'
+# run suscriber 
+# open a third terminal
+cd ~/robot
+source devel/setup.bash
+rosrun fanny_suscriber wheels.py
 
 # wheels
 
@@ -52,3 +54,8 @@ call back will activate
 after call back is activate 
 
 the wheel will run
+
+# sensor 
+
+sensor read and avoid obstacles
+
