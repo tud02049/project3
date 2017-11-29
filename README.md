@@ -1,5 +1,6 @@
 
 
+
 # project3
 
 in project we communcate with roomba using Ros in raspberrypi; after installing ros kinetic follow the instructions below
@@ -19,6 +20,18 @@ $catkin_make
 $source ./devel/setup.bash
 
 $pip install pycreate2
+
+# creat publisher 
+
+cd ~/robot/src
+
+catkin_create_pkg irsensors rospy
+
+# create suscriber
+
+cd ~/robot/src
+
+catkin_create_pkg wheels rospy
 
 # initiate the roscore
 
